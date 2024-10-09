@@ -27,13 +27,22 @@ console.log(fareQuadrupler(5)); // => 20
 
 const fareDoubler = createFareMultiplier(2);
 
-// Example:
 console.log(fareDoubler(10)); // => 20
 
 const fareTripler = createFareMultiplier(3);
 
-// Example:
 console.log(fareTripler(10)); // => 30
+
+const selectDifferentDrivers = function(driversArray, selectFunction) {
+    return selectFunction(driversArray);
+};
+
+console.log(selectDifferentDrivers(['Antonia', 'Nuru', 'Amari', 'Mo'], returnFirstTwoDrivers));
+
+console.log(selectDifferentDrivers(['Antonia', 'Nuru', 'Amari', 'Mo'], returnLastTwoDrivers));
+
+
+
 
  
 
