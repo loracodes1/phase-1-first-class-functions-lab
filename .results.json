@@ -2,38 +2,27 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 0,
+    "passes": 2,
     "pending": 0,
-    "failures": 13,
-    "start": "2024-10-09T11:45:40.859Z",
-    "end": "2024-10-09T11:45:41.473Z",
-    "duration": 614
+    "failures": 11,
+    "start": "2024-10-09T11:50:56.917Z",
+    "end": "2024-10-09T11:50:57.455Z",
+    "duration": 538
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "expected": [
-          "Antonia",
-          "Nuru"
-        ],
-        "stack": "AssertionError: expected undefined to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:12:49)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
@@ -68,7 +57,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -88,7 +77,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:54:14)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -149,31 +138,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "should return a new array containing the first two drivers from the passed-in array",
-      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "expected": [
-          "Antonia",
-          "Nuru"
-        ],
-        "stack": "AssertionError: expected undefined to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:12:49)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    },
-    {
-      "title": "should return an array of the last two drivers",
-      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
-    },
-    {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
       "duration": 0,
@@ -206,7 +170,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -226,7 +190,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:54:14)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -284,5 +248,20 @@
       }
     }
   ],
-  "passes": []
+  "passes": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
