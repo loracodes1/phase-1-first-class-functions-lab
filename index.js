@@ -15,3 +15,13 @@ const returnLastTwoDrivers = function() {
 console.log(returnLastTwoDrivers()); 
 
  const  selectingDrivers = ([returnFirstTwoDrivers, returnLastTwoDrivers])
+
+ const createFareMultiplier = function(multiplier) {
+    return function(fare) {
+        return fare * multiplier;
+    };
+};
+
+const fareQuadrupler = createFareMultiplier(4);
+console.log(fareQuadrupler(5)); // => 20
+
