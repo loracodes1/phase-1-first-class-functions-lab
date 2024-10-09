@@ -5,22 +5,22 @@
     "passes": 2,
     "pending": 0,
     "failures": 11,
-    "start": "2024-10-09T11:50:56.917Z",
-    "end": "2024-10-09T11:50:57.455Z",
-    "duration": 538
+    "start": "2024-10-09T12:02:23.915Z",
+    "end": "2024-10-09T12:02:24.405Z",
+    "duration": 490
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -37,7 +37,7 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:28:14)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -57,7 +57,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -150,7 +150,7 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:28:14)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -170,7 +170,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -252,14 +252,14 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
