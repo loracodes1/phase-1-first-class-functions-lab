@@ -1,2 +1,2 @@
 // Code your solution in this file!
-jhb
+ const returnFirstTwoDrivers = function(['Antonia', 'Nuru', 'Amari', 'Mo'])
