@@ -29,9 +29,6 @@ const fareDoubler = createFareMultiplier(2);
 
 // Example:
 console.log(fareDoubler(10)); // => 20
- const fareDoubler = createFareMultiplier(2);
-
-// Example:
-console.log(fareDoubler(10)); // => 20
+ 
 
 
