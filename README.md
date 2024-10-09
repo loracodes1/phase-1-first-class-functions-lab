@@ -67,7 +67,7 @@ returnLastTwoDrivers(['Antonia', 'Nuru', 'Amari', 'Mo'])
   the names of Scuber's `drivers` and either the `returnFirstTwoDrivers()` or
   `returnLastTwoDrivers()` function. Based on these two arguments,
   `selectDifferentDrivers()` will return either the first two drivers or the
-  last two drivers.
+  last two drivers. 
 
 When you're done, remember to commit and push your changes up to GitHub, then
 submit your work to Canvas using CodeGrade.

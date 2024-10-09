@@ -14,3 +14,4 @@ const returnLastTwoDrivers = function() {
 
 console.log(returnLastTwoDrivers()); 
 
+ const  selectingDrivers = ([returnFirstTwoDrivers, returnLastTwoDrivers])
